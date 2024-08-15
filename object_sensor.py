@@ -7,9 +7,8 @@ while True:
     # 物体を検知したら、ON
     if object_sensor.value() == 1:
         print("Object detected")
-
+        
     # 物体を検知しなかったら、OFF
-
     elif object_sensor.value() == 0:
         print("Object not detected")
 
